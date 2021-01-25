@@ -1,0 +1,21 @@
+<!DOCTYPE html5>
+<head>
+  <script src="https://kit.fontawesome.com/032d71f8ad.js" crossorigin="anonymous"></script>
+  <script src="script.js" type="text/javascript"></script>
+  <link href="style.css" rel="stylesheet"></link>
+</head>
+<body>
+  <div class="timer">
+    <input placeholder="00" id="horas" disabled>
+    <p>:</p>
+    <input placeholder="00" id="minutos" disabled>
+    <p>:</p>
+    <input placeholder="00" id="segundos" disabled>
+  </div>
+  <div>
+    <button onclick="play()" id="play"><i id="icono" class="fas fa-play fa-3x"></i></button>
+    <button onclick="reload()"><i class="fas fa-redo-alt fa-3x"></i></button>
+    <button  id="stop" onclick="pause()"><i class="fas fa-pause fa-3x"></i></button>
+  </div> 
+</body>
+ 

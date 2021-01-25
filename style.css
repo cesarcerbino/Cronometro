@@ -1,0 +1,35 @@
+body{
+    background: rgb(20,20,20);
+    background: linear-gradient(0deg, rgba(20,20,20,1) 0%, rgba(20,19,37,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    background:none;
+    width: 100px;
+    border: none;
+    height: 300px;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(5, 197, 197);
+}
+div.timer{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size:60px ;
+    align-items: center;
+    border: 2px solid cyan;
+    border-radius: 200px;
+    height: 350px;
+    margin:20px;
+}
+
+button{
+    background: none;
+    color: white;
+    border: none;
+}
